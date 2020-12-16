@@ -1,22 +1,25 @@
 body {
-    background: rgb(58, 148, 148);
+    background: rgb(129, 160, 172);
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 header {
-    background:rgb(156, 199, 199);
+    background:rgb(141, 204, 204);
     padding:20px;
 }
 section {
-   background: rgb(94, 92, 179);
+   background: rgb(87, 135, 197);
    padding:0;
    margin:0;
+   min-height: 100%
 }
 div {
    display:inline-block;
-
+    overflow: auto;
+    padding-bottom: 25px;
 }
 ul {
    margin:0;
@@ -35,9 +38,10 @@ a {
 }
 #nav {
     float:left;
-    background: rgb(21, 148, 165);
+    background: lightgray;
     overflow: hidden;
-    height:800px;
+    margin:0;
+    padding:0;
 }
 #nav a {
     padding: 8px 16px;
@@ -47,8 +51,8 @@ a {
     display: block;
 }
 #nav a:hover {
-    color:#555;
-    background-color: white;
+    color:rgb(255, 255, 255);
+    background-color: #555;
 } 
 .põhiosa {
     margin-left:40px;
@@ -64,11 +68,14 @@ a {
     padding:15px;
     position: absolute;
     right:0;
-    background-color:rgb(151, 116, 116) ;
+    background-color:white ;
     height:700px ;
     width:350px;
 }
 footer {
-    background: grey;
-    padding:10px 20px;    
+    background: darkgray;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
 }
