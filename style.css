@@ -1,12 +1,13 @@
 body {
-    background: rgb(58, 148, 148);
+    background: rgb(129, 160, 172);
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
+
 header {
-   background:rgb(141, 204, 204);
+    background:rgb(141, 204, 204);
     padding:10px 16px;
     position:fixed;
     top:0;
